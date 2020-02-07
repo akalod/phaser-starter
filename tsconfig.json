@@ -1,0 +1,25 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "importHelpers": true,
+    "removeComments": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es6",
+    "module": "commonjs",
+    "baseUrl": "./",
+    "outDir": "./dist",
+    "jsx": "react",
+    "allowJs": true,
+    "typeRoots": ["./node_modules/phaser/types"],
+    "types": ["Phaser"],
+    "paths": {
+      "modules/*": ["./node_modules/*"],
+      "components/*": ["src/components/*"],
+      "config/*": ["src/config/*"],
+      "app/*": ["src/*"]
+    }
+  }
+}
